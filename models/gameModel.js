@@ -6,7 +6,7 @@ const gameSchema = new mongoose.Schema({
   player2Name: { type: String, required: true },
   rounds: { type: Array, required: true },
   winner: { type: String, required: true },
-});
+ });
 
 const Game = mongoose.model("Game", gameSchema);
 
