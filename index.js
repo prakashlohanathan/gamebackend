@@ -21,7 +21,6 @@ app.post("/api/save-game", saveGame);
 app.get("/api/games", getGames);
 
 //dbConnection
-
 dbConnection();
 
 //Server Connection
