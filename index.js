@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
 import { dbConnection } from "./db.js";
-import { saveGame, getGames } from "./Controller/gameController.js"
+import { saveGame, getGames } from "./Controller/gameController.js";
 
 
 //ENV configuration
